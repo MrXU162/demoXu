@@ -17,6 +17,7 @@
 		112156D925678D1D00421697 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156D825678D1D00421697 /* demoTests.m */; };
 		112156E425678D1D00421697 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156E325678D1D00421697 /* demoUITests.m */; };
 		112156F325678DF800421697 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F225678DF800421697 /* Dog.m */; };
+		112156F925678F6800421697 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F825678F6800421697 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		112156E525678D1D00421697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112156F125678DF800421697 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		112156F225678DF800421697 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		112156F725678F6800421697 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		112156F825678F6800421697 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				112156CE25678D1D00421697 /* main.m */,
 				112156F125678DF800421697 /* Dog.h */,
 				112156F225678DF800421697 /* Dog.m */,
+				112156F725678F6800421697 /* Cat.h */,
+				112156F825678F6800421697 /* Cat.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112156F925678F6800421697 /* Cat.m in Sources */,
 				112156C425678D1700421697 /* ViewController.m in Sources */,
 				112156BE25678D1700421697 /* AppDelegate.m in Sources */,
 				112156F325678DF800421697 /* Dog.m in Sources */,
