@@ -17,6 +17,7 @@
 		112156D925678D1D00421697 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156D825678D1D00421697 /* demoTests.m */; };
 		112156E425678D1D00421697 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156E325678D1D00421697 /* demoUITests.m */; };
 		112156F325678DF800421697 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F225678DF800421697 /* Dog.m */; };
+		112156F625678F4600421697 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F525678F4600421697 /* Pig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		112156E525678D1D00421697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112156F125678DF800421697 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		112156F225678DF800421697 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		112156F425678F4600421697 /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		112156F525678F4600421697 /* Pig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		112156BB25678D1700421697 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				112156F425678F4600421697 /* Pig.h */,
+				112156F525678F4600421697 /* Pig.m */,
 				112156BC25678D1700421697 /* AppDelegate.h */,
 				112156BD25678D1700421697 /* AppDelegate.m */,
 				112156BF25678D1700421697 /* SceneDelegate.h */,
@@ -272,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112156F625678F4600421697 /* Pig.m in Sources */,
 				112156C425678D1700421697 /* ViewController.m in Sources */,
 				112156BE25678D1700421697 /* AppDelegate.m in Sources */,
 				112156F325678DF800421697 /* Dog.m in Sources */,
