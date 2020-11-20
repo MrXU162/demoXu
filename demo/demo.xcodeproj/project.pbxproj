@@ -16,6 +16,7 @@
 		112156CF25678D1D00421697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156CE25678D1D00421697 /* main.m */; };
 		112156D925678D1D00421697 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156D825678D1D00421697 /* demoTests.m */; };
 		112156E425678D1D00421697 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156E325678D1D00421697 /* demoUITests.m */; };
+		112156F325678DF800421697 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F225678DF800421697 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		112156DF25678D1D00421697 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112156E325678D1D00421697 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		112156E525678D1D00421697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112156F125678DF800421697 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		112156F225678DF800421697 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				112156CA25678D1D00421697 /* LaunchScreen.storyboard */,
 				112156CD25678D1D00421697 /* Info.plist */,
 				112156CE25678D1D00421697 /* main.m */,
+				112156F125678DF800421697 /* Dog.h */,
+				112156F225678DF800421697 /* Dog.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			files = (
 				112156C425678D1700421697 /* ViewController.m in Sources */,
 				112156BE25678D1700421697 /* AppDelegate.m in Sources */,
+				112156F325678DF800421697 /* Dog.m in Sources */,
 				112156CF25678D1D00421697 /* main.m in Sources */,
 				112156C125678D1700421697 /* SceneDelegate.m in Sources */,
 			);
