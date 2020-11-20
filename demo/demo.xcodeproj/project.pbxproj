@@ -18,6 +18,7 @@
 		112156E425678D1D00421697 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156E325678D1D00421697 /* demoUITests.m */; };
 		112156F325678DF800421697 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F225678DF800421697 /* Dog.m */; };
 		112156F925678F6800421697 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156F825678F6800421697 /* Cat.m */; };
+		112156FC256795C600421697 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 112156FA256795C600421697 /* Pig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		112156F225678DF800421697 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		112156F725678F6800421697 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		112156F825678F6800421697 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		112156FA256795C600421697 /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		112156FB256795C600421697 /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 		112156BB25678D1700421697 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				112156FB256795C600421697 /* Pig.h */,
+				112156FA256795C600421697 /* Pig.m */,
 				112156BC25678D1700421697 /* AppDelegate.h */,
 				112156BD25678D1700421697 /* AppDelegate.m */,
 				112156BF25678D1700421697 /* SceneDelegate.h */,
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112156FC256795C600421697 /* Pig.m in Sources */,
 				112156F925678F6800421697 /* Cat.m in Sources */,
 				112156C425678D1700421697 /* ViewController.m in Sources */,
 				112156BE25678D1700421697 /* AppDelegate.m in Sources */,
